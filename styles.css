@@ -589,6 +589,10 @@ font-family: 'Montserrat', sans-serif;
     margin: 100px auto;
     text-align: center;
   }
+	h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
 
   .i1{
     width: 115px;
@@ -665,4 +669,7 @@ width: 50px;
 }
 .middle-container{
   margin-top: 150px;
+}
+.h3T{
+  font-size: 2rem;
 }

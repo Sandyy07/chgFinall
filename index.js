@@ -7,7 +7,7 @@ $('#header a').on('click', function (e) {
     $('html, body')
       .animate({
         scrollTop: $(hash).offset().top
-      },1000);
+      },600);
   }
 });
 
@@ -46,9 +46,9 @@ let dec12=document.getElementById("png12");
 window.addEventListener('scroll',function(){
   var value=window.scrollY;
   dec1.style.top=value * 0.65 +"px";
-  dec2.style.top=value * 0.5 +"px";
-  dec3.style.top=value * 0.85 +"px";
-  dec4.style.top=value * 0.755 +"px";
+  dec2.style.top=value * 0.95 +"px";
+  dec3.style.top=value * 0.75 +"px";
+  dec4.style.top=value * 0.355 +"px";
   dec5.style.top=value * 0.95 +"px";
   dec6.style.top=value * 0.45 +"px";
   dec7.style.top=value * 0.95 +"px";
@@ -56,6 +56,6 @@ window.addEventListener('scroll',function(){
   dec9.style.top=value * 0.33 +"px";
   dec10.style.top=value * 0.99 +"px";
   dec11.style.top=value * 0.725 +"px";
-  dec12.style.top=value * 0.665 +"px";
+  dec12.style.top=value * 0.465 +"px";
 
 })

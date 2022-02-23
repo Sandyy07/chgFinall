@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 *
 {
   margin: 0;
@@ -10,7 +10,7 @@
 html
 {
 
-  
+
   text-align: center;
 }
 
@@ -29,15 +29,19 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     padding: 70px 0px 50px;
 }
-h3 {
+
+h3
+{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    font-size: 2.4rem;
 }
 p {
     line-height: 2;
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 
 .testimonial-text{
   font-size: 1.3rem;
@@ -180,6 +184,7 @@ font-family: 'Comforter', cursive;
 .middle-container{
 padding: 100px 0 20px;
 background-color: #fff;
+
 }
 .intro{
   width: 30%;
@@ -501,7 +506,7 @@ font-family: 'Montserrat', sans-serif;
     left: 0;
     width: 100%;
     height: calc(100vh);
-    padding: 50px 100px;
+    padding: 50px 0px;
     text-align: center;
     overflow: auto;
     visibility: hidden;
@@ -521,10 +526,13 @@ font-family: 'Montserrat', sans-serif;
     margin: 5px 0;
     font-size: 24px;
   }
-  header,
+  header{
+    padding: 15px 50px;
+    background: #fac7c7;
+    }
   header.sticky
   {
-    padding: 5px 50px;
+    padding: 15px 50px;
     background: #fff;
   }
   header .logo,
@@ -560,9 +568,11 @@ font-family: 'Montserrat', sans-serif;
   color:#000;
   /* box-sizing: border-box; */
   padding: 10px 5px;
-  font-weight: bold;
+
   font-size: 2em;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 /* .carousel-control-next, .carousel-control-prev {
@@ -589,10 +599,6 @@ font-family: 'Montserrat', sans-serif;
     margin: 100px auto;
     text-align: center;
   }
-	h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-}
 
   .i1{
     width: 115px;
@@ -669,7 +675,4 @@ width: 50px;
 }
 .middle-container{
   margin-top: 150px;
-}
-.h3T{
-  font-size: 2rem;
 }
